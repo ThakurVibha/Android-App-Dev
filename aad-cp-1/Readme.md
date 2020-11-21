@@ -15,6 +15,6 @@
 ### User Interface
     • Setting up IDE.
     • How to create and place layouts on the page.
-    • How to create and place image and buttons on phone screen.
+    • How to create and place images and buttons on phone screen.
     • How to build a Single-Screen app. 
 

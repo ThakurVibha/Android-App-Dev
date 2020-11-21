@@ -13,3 +13,8 @@
 ## Topics to be covered
 
 ### User Input
+    • Running Android Emulator on your local machine.
+    • How to make your application interactive.
+    • Object Oriented Programming concepts.
+    • Build a simple Quiz android app. 
+

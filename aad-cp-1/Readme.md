@@ -13,3 +13,8 @@
 ## Topics to be covered
 
 ### User Interface
+    • Setting up IDE.
+    • How to create and place layouts on the page.
+    • How to create and place image and buttons on phoner screen.
+    • How to build a Single-Screen app. 
+

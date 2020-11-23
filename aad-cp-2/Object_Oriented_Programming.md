@@ -132,4 +132,15 @@ But before dicussing the basic concepts lets take a look into what classes and o
 <h3>Objects:-</h3>
 
 *""An object is an identifable entity with some characteristics and behaviour""*
+
 <img src="https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/Wordane-OOP-car-class-eg-2.jpg" align="right"/>
+
+To understand objects more clearly lets condider an example- Lets say a car is an object. So, we can say its characteristics are - It's green, It's a Ford Mustang and runs on gasoline. Similarly Objects are an entity that store data, have some characteristics and behaviour.
+<br/>
+
+<h3>Class:-</h3>
+
+*""A class is a group of objects that share common properties and relationships""*
+
+Let's consider the above example of objects. The different models Ford mustang, Toyota prius, Volkswagon polo are nothing but are different models of CARS. So, all these models of cars or what we can say Objects that share common properties are grouped under CARS or what we can say a class.
+

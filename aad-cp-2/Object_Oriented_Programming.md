@@ -72,8 +72,64 @@ Now the manipulating fuction reademployee also needs to be rewritten. So, this i
   
 <p align="right">-Wikipeida</p>
 
-Object oriented programming gives more emphasis on objects. In OOP data and its assiciated functions are enclosed within a single entity - a class. Some benefits of OOP over POP are - 
+Object oriented programming gives more emphasis on objects. In OOP data and its assiciated functions are enclosed within a single entity - a class. Some benefits of OOP are - 
 <ul>
-  <li>Object based programming is not as suceptible to design changes as POP</li>
+  <li>Object based programming localizes the implementation details</li>
+</ul>
+Object oriented programming is a lot helpful when it comes up to the point of localization of implementation details. Let's take a look-
+
+```C++
+  class employer {
+  int empid;
+  char name[100];
+  char post;
+  int empno;
+  
+  public:
+        void reademployee();
+        void removeemployee();
+  }
+```
+Don't get confused between a structure and a class. If you don't know the differences between a structure and a class. A class is basically a structure and it can even hold functions in it. And only declarations under public make the user interface. That's all that you need to know for now about structure and classes.
+So, by now you might have the above code snippet similar to the one we had discussed in POP. The only difference being the member functions being present inside the class. Now, let me show you the beauty of OOP.
+
+What if you need to add another field salary to class employer? Let's do it- 
+
+```C++
+  class employer {
+  int empid;
+  char name[100];
+  char post;
+  int empno;
+  int salary;
+  public:
+        void reademployee();
+        void removeemployee();
+  }
+```
+So as you can see changes have been made to the class employer but whats the difference. The difference is the fact that the user would never know about the new field that has been added as the user can only view the public part. But now what about the funtion definitons, is it required to change them as well? Yes, it is necessary but now the point being that the changes are now localized to the definition of the changed function and the user cannot see them.
+
+<ul>
+  <li>OOP overcomes most shortcoming and drawbacks of POP</li>
+  <li>OOP supports user-defined types</li>
+  <li>OOP implements information hiding and abstraction,etc.</li>
 </ul>
 
+<h3>Basic concepts of OOP</h3>
+<hr/>
+The general concepts of OOP are - 
+<ul>
+  <li>Data Abstraction</li>
+  <li>Data Encapsulation</li>
+  <li>Modularity</li>
+  <li>Inheritance</li>
+  <li>Polymorphism</li>
+</ul>
+But before dicussing the basic concepts lets take a look into what classes and objects are. Why are we discussing them? This is because of the fact which i mentioned earlier i.e. 
+
+**In OOP data and its assiciated functions are enclosed within a single entity - a class.**
+
+<h3>Objects:-</h3>
+
+*""An object is an identifable entity with some characteristics and behaviour""*
+<img src="https://raw.githubusercontent.com/andrejrs/Object-Oriented-PHP/master/images/Wordane-OOP-car-class-eg-2.jpg" align="right"/>

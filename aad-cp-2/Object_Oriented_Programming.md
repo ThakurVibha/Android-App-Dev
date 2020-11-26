@@ -144,3 +144,34 @@ To understand objects more clearly lets condider an example- Lets say a car is a
 
 Let's consider the above example of objects. The different models Ford mustang, Toyota prius, Volkswagon polo are nothing but are different models of CARS. So, all these models of cars or what we can say Objects that share common properties are grouped under CARS or what we can say a class.
 
+<br/>
+Now let's discuss the basic concepts of OOP-
+<ul>
+  <li><h3>Data Abstraction:-</h3></li>
+</ul>
+
+
+*""Abstraction refers to the act of representing essential features without including the background details or explanations""*
+
+So, data abstraction is all about acknowledging the user with the necessary details required. Let's consider an example -
+
+<a href="https://imgbb.com/"><img align="right" src="https://i.ibb.co/SQknbzG/abstraction.jpg" alt="abstraction" border="0"></a><br />
+
+What do you enquire when you buy a vehicle? Of course you want to know the specifications of the vehicle like model, size, color etc. But do you ever enquire any details such as wiring, motor working etc. ?. This is what data abstraction actually means. The user only sees the essential things, and the other things that are not required by the user are hidden.
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<ul>
+  <li><h3>Encapsulation:-</h3></li>
+</ul>
+
+
+*""The wrapping up of data and operations/functions (that operate on the data) into a single unit (called class) is known as Encapsulation""*
+
+<img align="right" src="https://miro.medium.com/max/559/1*CLBzWEo22SXvh-0dT3eV_w.png" width="450px"/>
+
+Encapsulation is the way of combining both data and the functions that operate on data under a single unit. Encapsulation can be best described by the diagram beside- the capsule is basically interpreted as a class containing or encapsulating different members and member functions. 
+Now, you may wonder whats the difference between data abstraction and encapsulation? The answer is simple - Encapsulation is a way to implement data abstraction. Encapsulation hides the details of the implementaion of an object.

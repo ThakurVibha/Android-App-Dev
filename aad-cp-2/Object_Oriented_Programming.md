@@ -175,3 +175,56 @@ What do you enquire when you buy a vehicle? Of course you want to know the speci
 
 Encapsulation is the way of combining both data and the functions that operate on data under a single unit. Encapsulation can be best described by the diagram beside- the capsule is basically interpreted as a class containing or encapsulating different members and member functions. 
 Now, you may wonder whats the difference between data abstraction and encapsulation? The answer is simple - Encapsulation is a way to implement data abstraction. Encapsulation hides the details of the implementaion of an object.
+<br/>
+<br/>
+
+<ul>
+  <li><h3>Modularity:-</h3></li>
+</ul>
+
+*""Modularity is the property of a system that has been decomposed into a set of cohesive and loosely coupled modules""*
+
+<a href="https://imgbb.com/"><img align="right" src="https://i.ibb.co/12CsXpc/image006.jpg" alt="image006" border="0"></a>
+
+Modularity is basically the act of partitioning a program into indivisual components. The advantages of modularity are - 
+<ol>
+  <li>it reduces the complexity to some extent</li>
+  <li>it creates a number of well defined boundaries within the program</li>
+  </ol>
+  Let's consider an example to understand it better. You might have come across an e-commerce website. So if we consider the basic structure of an e-commerce website, the website basically has a cart where you can add your products and then after that either you can search for more products, or go for shipping and payment of the products. Now, searching, shipping and payments within themselves are 3 different independent units but yet they are subparts of the e-commerce website. This is what modularity actually is. The program similarly can be divided into different modules.
+  
+<ul>
+  <li><h3>Inheritance:-</h3></li>
+</ul>
+  
+*""Inheritance is the capability of one class of things to derive capabilities or properties from another class""*
+
+<img align="right" src="https://miro.medium.com/max/5536/1*CaTNbDiboMzEXuBB2AaDjg.png" width="500px"/>
+
+Inheritance is one of the major concepts of OOP. So, lets try to understand what inheritance actually is- 
+As you can see in the diagram , its kind of a simple graph to represent what comes under what!! Lets try understanding it from the base of the graph. What do mobile phones and cord phones come under ? or we could say what they actually are? Simple they both are nothing but types of phones. Similarly what are earpods, earphones, music players, steros etc? Simple they are different sound systems. Now what are phones and sound systems?? Its more simple they are different electronic gadgets or electronic items. So, this is what the basic concept of inheritance is. So, if we consider this in terms of classes, Phones and sound systems inherit some properties of the class electrnic items. Mobile phones, cord phones in turn inherit some properties of the class Phones and Music players, earpods etc. inherit some properties of the class Sound systems. 
+
+<br/>
+
+Inheritance is a powerful way of passing down properties. So, in terms of inheritance Electronics Items class is the base class and phones, sound systems are the inherited class.
+<br/>
+So, **Base Class** is a class from which different classes inherit their properties and **Inherited class** is a class which derives its properties from the **Base class**
+The below classification of the above example in terms of base and inherited class will make the concept of base and inherited classes clear for you.
+<ol>
+  <li>Electronic Items - Base class for Phones and sound systems </li>
+  <li>Phones - Base class for mobile phones, cord phones and inherited class of Electronic Items</li>
+  <li>Sound systems - Base class for music systems, Earpods, etc. and inherited class of Electronic Items</li>
+  <li>Mobile phones and cord phones - Inherited class of Phones</li>
+  <li>Music Systems, earpods, etc. - Inherited class of Sound Systems</li>
+</ol>
+
+  
+<ul>
+  <li><h3>Polymorphism:-</h3></li>
+</ul>
+
+*""Polymorphism is the ability for a message or data to be processed in more than one form""*
+
+<img align="right" src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/02/polymorphism-in-Java-1200x900.png" width="450px"/>
+
+What does 10+6 results in 16 but what does A+BC result in? Yes, you are right it's ABC. Now as you can see the "+" operator easily distinguishes between the two operations namely addition and concatenation. This is what polymorphism is. In programming we can see that a single function for e.g. a function to read area - area() can take up different types of arguments like - area(circle) , area(square), area(rectangle), etc.

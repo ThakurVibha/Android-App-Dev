@@ -59,7 +59,7 @@ Threshold for running = 10</li>
 
 ➣ Further on reopening the app onResume() method is responsible to return the data stored in sharedpreference.
 <hr/>
-<img src="https://user-images.githubusercontent.com/72120614/101270087-8259a800-372a-11eb-9208-29af8e48e127.png" width="700" height="300" />
+<img src="https://user-images.githubusercontent.com/72120614/101270087-8259a800-372a-11eb-9208-29af8e48e127.png" width="250" height="350" />
 <hr/>
 <h3>⚡ Some more functionalities that can be added to scale this Pedometer module of a Fitness Application</h3>
 

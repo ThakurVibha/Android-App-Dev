@@ -66,7 +66,6 @@ Threshold for running = 10</li>
 We can accepts this fact that Pedometer is Integral part of Fitness appication.
 
 <h3>Below are the features that an be be add to enhance the functionality.</h3>
-<p align="center">
  </br>
 ⚡ Total Calories Burned
 </br>

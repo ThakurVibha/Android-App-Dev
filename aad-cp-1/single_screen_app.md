@@ -27,7 +27,7 @@
 
 🤔 ➦So at the begining I was planning to make the same with the help of Google Fit API but then I did some research and found that it will be inconvenient to make the same in Single screen, then basically I end up with this descent Application that can be further scaled into full fledged Application with Calorie and distance tracker on the basis of Steps being taken by the user.
 <hr/>
-<h1><p align="center">HOW 😮</p></h1>
+<h1><p align="center">HOW 😮</h1>
 <h3>🏹Accelerometers sensor.</h3>
 
 *"Accelerometers in mobile phones are used to detect the orientation of the phone and an accelerometer measures linear acceleration of movement"*

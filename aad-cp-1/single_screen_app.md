@@ -64,7 +64,7 @@ Threshold for running = 10</li>
 ↱ Step counter apps work as pedometers, and are perfect for any fitness level, whether you're walking to lose weight or just trying to get to 10,000 steps a day. Many of these activity trackers can also track mileage, calories burned, food intake, and more so you can stay on track to meet your goals.
 We can accepts this fact that Pedometer is Integral part of Fitness appication.
 
-<h3>Below is the features that can be further added in this simple app to make it much more functional and beneficial.</h3>
+<h3>Below are the features that an be be add to enhance the functionality.</h3>
 <p align="center">
  </br>
 ⚡ Total Calories Burned

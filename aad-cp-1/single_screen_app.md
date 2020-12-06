@@ -58,9 +58,8 @@ Threshold for running = 10</li>
     that whatever the steps user took till that time same has to store in app.
 
 ➣ Further on reopening the app onResume() method is responsible to return the data stored in sharedpreference.
-<hr/>
-<img src="https://user-images.githubusercontent.com/72120614/101270087-8259a800-372a-11eb-9208-29af8e48e127.png" width="250" height="350" />
-<hr/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/72120614/101270087-8259a800-372a-11eb-9208-29af8e48e127.png" width="300" height="350" />
 <h3>⚡ Some more functionalities that can be added to scale this Pedometer module of a Fitness Application</h3>
 
 ↱ Step counter apps work as pedometers, and are perfect for any fitness level, whether you're walking to lose weight or just trying to get to 10,000 steps a day. Many of these activity trackers can also track mileage, calories burned, food intake, and more so you can stay on track to meet your goals.

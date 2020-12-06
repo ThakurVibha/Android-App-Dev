@@ -9,23 +9,23 @@
 
 <h1><p align="center">WHAT 🤔</p></h1>
 
-↷ I have build step counter using accelerometer sensor, so basically i want to first give a brief introduction of Pedometer Application.
+↷ So basically i want to first give a brief introduction of Pedometer Application.
 
-↷ So, I have build a pedometer application to count(on Shaking the device) the steps using the accelerometer sensor data.
+↷ I have build a pedometer application to count(on Shaking the device) the steps using the accelerometer sensor data.
 
-↷ Although I know how to work with diffrent layouts I.e.,RelativeLayout, Linear and constraint but for this application i have used Linearlayout and divided the whole linearlayout into two parts consiting of two diffrent constarint layouts as per my choice. 
+↷ Although I know how to work with diffrent layouts I.e.,RelativeLayout, Linear and constraint but for this application I have used Linearlayout and divided the whole linearlayout into two parts consiting of two diffrent constraint layouts as per my choice. 
 
-↷ I have keep User interface as simple as possible consisting of Custom Circular progressbar which will fill its region as per step increment.To make UI a little bit of interactive i have used few icons and images.Inside progressbar i have constrained the Main textview in which user can view the realtime steps numbers increment with respect to accelaeration of deveice.
+↷ I kept User interface as simple as possible consisting of Custom Circular progressbar which will fill its region as per step increment.To make UI a little bit of interactive I have used few icons and images.Inside progressbar i have constrained the Main textview in which user can view the realtime steps numbers increment with respect to acceleration of deveice.
 
-↷ The Step counter uses onCharge reporting mode which means it reports the event as soon as there is change in the value.
+↷ The Step counter uses onCharge Reporting mode which means it reports the event as soon as there is change in the value.
 </br>
 <p align="center">
 <img src="https://images.pexels.com/photos/4428994/pexels-photo-4428994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="600" height="450" />
 
 <h1><p align="center">WHY 😏</p></h1>
-➣ I Choose to make Pedometer because I find this topic interesting and thrilling and at the same time I was amazed how step counting work in various popular Fitness applications.
+➣ I Choose to make Pedometer because I find this topic interesting and engaging and at the same time I was amazed how Step counters work in various popular Fitness applications.
 
-🤔 ➦So at the begining I was planning to make the same with the help of Google Fit API but then I did some research and found that it will be inconvenient to make the same in Single screen then basically I end up with this descent Application that can be further scaled into full fledged Application with Calorie and distance tracker on the basis of Steps being taken by the user.
+🤔 ➦So at the begining I was planning to make the same with the help of Google Fit API but then I did some research and found that it will be inconvenient to make the same in Single screen, then basically I end up with this descent Application that can be further scaled into full fledged Application with Calorie and distance tracker on the basis of Steps being taken by the user.
 <hr/>
 <h1><p align="center">HOW 😮</p></h1>
 <h3>🏹Accelerometers sensor.</h3>
@@ -62,7 +62,9 @@ Threshold for running = 10</li>
 <h3>⚡ Some more functionalities that can be added to scale this Pedometer module of a Fitness Application</h3>
 
 ↱ Step counter apps work as pedometers, and are perfect for any fitness level, whether you're walking to lose weight or just trying to get to 10,000 steps a day. Many of these activity trackers can also track mileage, calories burned, food intake, and more so you can stay on track to meet your goals.
-We can accepts this fact that Pedometer is Integral part of Fitness appication.Below is the features that can be further added in this simple app to make it much more functional and beneficial.
+We can accepts this fact that Pedometer is Integral part of Fitness appication.
+
+<h3>Below is the features that can be further added in this simple app to make it much more functional and beneficial.</h3>
 <p align="center">
  </br>
 ⚡ Total Calories Burned
